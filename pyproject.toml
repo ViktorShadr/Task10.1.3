@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "task10-1-3"
+version = "0.1.0"
+description = ""
+authors = ["Viktor Shadrin <v.vshadrin@gmail.com>"]
+readme = "README.md"
+packages = [{include = "task10"}]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
